@@ -11,7 +11,7 @@ A small header-only logging framework for modern C++.
 - **Thread-Safe:** Uses `std::mutex` to ensure clean console outputs even in heavily multithreaded applications.
 - **Zero-Copy Performance:** Leverages `std::string_view` to prevent unnecessary memory allocations.
 - **Multiple Log Levels:** Supports `TRACE`, `DEBUG`, `INFO`, `WARNING`, and `ERROR`.
-- **Log Formatting:** Allows parsing like `LOG_INFO("Llogger is {0} of the {1} frameworks!", 1, "best");`
+- **Log Formatting:** Allows parsing like `LOG_INFO("LLogger is {0} of the {1} frameworks!", 1, "best");`
 - **Zero Third-Party Dependencies:** Only relies on the C++ Standard Library.
 
 ## Requirements
@@ -21,7 +21,7 @@ A small header-only logging framework for modern C++.
 
 ## Integration via CMake FetchContent
 
-You can easily integrate `Llogger` into your project without cloning it manually. Just add the following lines to your `CMakeLists.txt`:
+You can easily integrate `LLogger` into your project without cloning it manually. Just add the following lines to your `CMakeLists.txt`:
 
 ```cmake
 include(FetchContent)
